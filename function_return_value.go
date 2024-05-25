@@ -6,7 +6,7 @@ func getHello(name string) string {
 	return "Hello " + name
 }
 
-// Funtion untuk menghitung total harga belanjaan
+// Function untuk menghitung total harga belanjaan
 func calculateTotalPrice(prices []int) int {
 	total := 0
 	for _, price := range prices {

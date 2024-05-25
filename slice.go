@@ -151,4 +151,16 @@ func main() {
 	- Saat membuat Array, kita harus berhati-hati, jika salah, maka yang kita buat bukanlah Array,
 	  melainkan Slice
 	*/
+
+	// Array vs Slice
+	iniArray := [...]int{1, 2, 3, 4, 5}
+	iniArray2 := [5]int{1, 2, 3, 4, 5}
+	iniSlice := []int{1, 2, 3, 4, 5}
+
+	fmt.Println(iniArray)
+	fmt.Println(iniArray2)
+	fmt.Println(iniSlice)
+
+	// Di golang akan lebih sering menggunakan slice dibandingkan array
+
 }

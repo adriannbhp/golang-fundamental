@@ -7,6 +7,7 @@ func getCompleteName() (firstName, middleName, lastName string) {
 	firstName = "Adrian Bimo"
 	middleName = "Hernawan"
 	lastName = "Pratama"
+	
 	return firstName, middleName, lastName
 }
 

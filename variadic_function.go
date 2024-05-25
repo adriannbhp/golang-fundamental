@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+/**
+Variadic Function
+- Parameter yang berada di posisi terakhir, memiliki kemampuan dijadikan sebuah varargs
+- Varargs artinya datanya bisa menerima lebih dari satu input, atau dianggap saja semacal Array
+- Apa bedanya dengan parameter biasa dengan tipe data Array ?
+	- Jika parameter tipe Array, kita wajib membuat array terlebih dahulu sebelum mengirimkan
+	  function
+	- Jika parameter menggunakan varargs, kita bisa langsung mengirim datanya, jika lebih dari satu
+      cukup gunakan tanda koma
+*/
+
 // sumAll mengembalikan jumlah total dari sejumlah argumen yang diberikan
 func sumAll(numbers ...int) int {
 	total := 0 // Akumulasi penjumlahan dimulai dari 0
