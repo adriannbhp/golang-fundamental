@@ -20,7 +20,7 @@ type Customer struct {
 
 func main() {
 	var adrian Customer
-	fmt.Println(adrian)
+	fmt.Println(adrian) // Adrian
 
 	// Memanggil semua data di Struct
 	adrian.Name = "Adrian Bimo"
